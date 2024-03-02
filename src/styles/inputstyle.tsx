@@ -6,8 +6,11 @@ export const input = StyleSheet.create({
      color:'white',
      fontFamily:"Poppins-Light",
      margin:7,
+     marginBottom:3,
+     marginTop:3,
      flex:1,
-     fontSize:13
+     fontSize:13,
+     padding:7
    },
    textinputContainer:{
     backgroundColor:'#111D1B',
@@ -16,6 +19,6 @@ export const input = StyleSheet.create({
     display:'flex',
     flexDirection:'row',
     borderRadius:15,
-    marginTop:60
+    marginTop:35
    }
 })
